@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/ESM" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="8ySscqtblN.ESM" package="8ySscqtblN" required_version="4.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor.led_green"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor.led_ir"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor.led_red"/>
+    <feature name="http://tizen.org/feature/humanactivitymonitor"/>
+    <icon src="smi.png"/>
+    <name>ESM</name>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+</widget>
